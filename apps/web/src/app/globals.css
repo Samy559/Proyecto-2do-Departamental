@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-bebas: 'Bebas Neue', Impact, sans-serif;
+  --font-caveat: 'Caveat', cursive;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', var(--font-bebas), Impact, sans-serif !important;
+  letter-spacing: 0.04em;
+}
+
+.font-caveat {
+  font-family: 'Caveat', var(--font-caveat), cursive !important;
+}
+
+
